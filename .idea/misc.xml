@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="arial_image_chopper" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="arial_image_chopper" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="image_chopper" project-jdk-type="Python SDK" />
 </project>
