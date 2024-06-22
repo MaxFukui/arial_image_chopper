@@ -4,7 +4,7 @@ from tilling.settings_tiles import (create_mask, save_color_mapped_mask,
                                     tile_images, plot_sample, tile_raster_images)
 
 # Load configuration
-with open('config.json', 'r') as config_file:
+with open('config_ucdb.json', 'r') as config_file:
     config = json.load(config_file)
 
 LABELS_DIR = config['LABELS_DIR']

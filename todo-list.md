@@ -1,0 +1,3 @@
+- [x] Separete image of test
+- [ ] Test the Chat algo 01
+- [ ] Creating COCO

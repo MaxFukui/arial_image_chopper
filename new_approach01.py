@@ -17,13 +17,8 @@ def plot_out_image(out_image, label_name):
     plt.show()
 
 def plot_mask(mask):
-    label_dict = {
-        0: 'Background',
-        1: 'Grass',
-        2: 'Bush',
-        3: 'Vegetation',
-        4: 'Foreground_UPS'
-    }
+Learning and Adapting Robust Features for Satellite Image Segmentation on Heterogeneous Data Sets
+This paper addresses the problem of training a deep neural network for satellite image segmentation so that it can be deployed over images whose statistics differ from those used for training. For example, in postdisaster damage assessment, the tight time constraints make it impractical to train a network from scratch for each image to be segmented. We propose a convolutional encoder- decoder network able to learn visual representations of increasing semantic level as its depth increases, allowing it to generalize over a wider range of satellite images. Then, we propose two additional methods to improve the network performance over each specific image to be segmented. First, we observe that updating the batch normalization layers' statistics over the target image improves the network performance without human intervention. Second, we show that refining a trained network over a few samples of the image boosts the network performance with minimal human intervention. We evaluate our architecture over three data sets of satellite images, showing the state-of-the-art performance in binary segmentation of previously unseen images and competitive performance with respect to more complex techniques in a multiclass segmentation task.
     unique_values = np.unique(mask)
     print("Plotting mask with unique values:", unique_values)  # Debugging statement
 

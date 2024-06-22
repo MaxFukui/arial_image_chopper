@@ -23,3 +23,9 @@ Test_True_Ortho.tif
 /Files/2017 - DJI Inspire 1/
 /Files/2023 - DJI M3M/
 /Files/UCDB/
+/output/
+/output_UCDB/*
+/output_UCDB_output_tiles/*
+/teste_coco/*
+/tiling/*
+/tilling/*
