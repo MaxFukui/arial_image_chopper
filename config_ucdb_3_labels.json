@@ -1,0 +1,30 @@
+{
+  "LABELS_DIR": "/home/corbusier/development/arial_image_chopper/Files/Labels_UCDB",
+  "OUTPUT_DIR": "/home/corbusier/development/arial_image_chopper/output_UCDB_1024_3_labels",
+  "image_fp": "/home/corbusier/development/arial_image_chopper/Files/UCDB/ucdb.tif",
+  "shapefiles": {
+    "Background": "Background",
+    "Grass": "Grass Copy 2",
+    "Others": "Others",
+    "Vegetation": "Vegetation",
+    "Bush": "Bush"
+  },
+  "class_labels": {
+    "Background": 0,
+    "Grass": 1,
+    "Others": 2,
+    "Vegetation": 3,
+    "Bush": 4
+  },
+  "tile_size": 512,
+  "output_mask_path": "/home/corbusier/development/arial_image_chopper/output_UCDB_1024_3_labels/mask.tif",
+  "color_mask_path": "/home/corbusier/development/arial_image_chopper/output_UCDB_1024_3_labels/color_mask.png",
+  "colormap": {
+    "0": [0, 0, 0],
+    "1": [255, 0, 0],
+    "2": [0, 0, 0],
+    "3": [0, 0, 255],
+    "4": [0, 0, 255]
+  },
+  "prefix": "UCDB_1024_3_labels"
+}

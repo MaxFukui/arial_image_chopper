@@ -159,7 +159,7 @@ def save_color_mapped_mask(mask_path, color_mask_path, class_labels):
         1: (255, 0, 0),      # Red for Grass
         2: (0, 255, 0),      # Green for Bush
         3: (0, 0, 255),      # Blue for Vegetation
-        4: (255, 255, 0)     # Yellow for Foreground_UPS
+        4: (0, 0, 0)     # Yellow for Foreground_UPS
     }
 
     color_mask = np.zeros(

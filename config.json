@@ -16,7 +16,7 @@
     "Vegetation": 3,
     "Foreground_UPS": 4
   },
-  "tile_size": 1024,
+  "tile_size": 512,
   "output_mask_path": "/home/corbusier/development/arial_image_chopper/mask.tif",
   "color_mask_path": "/home/corbusier/development/arial_image_chopper/color_mask.png",
   "colormap": {
@@ -24,6 +24,7 @@
     "1": [255, 0, 0],
     "2": [0, 255, 0],
     "3": [0, 0, 255],
-    "4": [255, 255, 0]
-  }
+    "4": [0, 0, 0]
+  },
+  "prefix": "UPS_512"
 }

@@ -29,3 +29,7 @@ Test_True_Ortho.tif
 /teste_coco/*
 /tiling/*
 /tilling/*
+*.tif
+*.png
+*.jpg
+*.jpeg

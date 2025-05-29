@@ -1,26 +1,30 @@
 {
   "LABELS_DIR": "/home/corbusier/development/arial_image_chopper/Files/UCDB",
-  "OUTPUT_DIR": "/home/corbusier/development/arial_image_chopper/output_UCDB_output_tiles",
+  "OUTPUT_DIR": "/home/corbusier/development/arial_image_chopper/output_UCDB/output_tiles",
   "image_fp": "/home/corbusier/development/arial_image_chopper/Files/UCDB/ucdb.tif",
   "shapefiles": {
     "Background": "Background",
     "Grass": "Grass Copy 2",
+    "Others": "Others",
     "Vegetation": "Vegetation",
-    "Others": "Others"
+    "Bush": "Bush"
   },
   "class_labels": {
     "Background": 0,
     "Grass": 1,
-    "Vegetation": 2,
-    "Others": 3
+    "Others": 2,
+    "Vegetation": 3,
+    "Bush": 4
   },
-  "tile_size": 1024,
+  "tile_size": 512,
   "output_mask_path": "/home/corbusier/development/arial_image_chopper/output_UCDB/output_masks/mask.tif",
   "color_mask_path": "/home/corbusier/development/arial_image_chopper/output_UCDB/output_masks/color_mask.png",
   "colormap": {
     "0": [0, 0, 0],
     "1": [255, 0, 0],
-    "2": [0, 255, 0],
-    "3": [0, 0, 255]
-  }
+    "2": [0, 0, 0],
+    "3": [0, 0, 255],
+    "4": [0, 255, 0]
+  },
+  "prefix": "UCDB_512"
 }

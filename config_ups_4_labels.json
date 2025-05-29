@@ -1,0 +1,30 @@
+{
+  "LABELS_DIR": "/home/corbusier/development/arial_image_chopper/Files/Labels_UPS",
+  "OUTPUT_DIR": "/home/corbusier/development/arial_image_chopper/output_ups_1024_4_labels",
+  "image_fp": "/home/corbusier/development/arial_image_chopper/Files/2018 - DJI P4 Pro/UPS_SUR_transparent_mosaic_group1.tif",
+  "shapefiles": {
+    "Background": "Background",
+    "Grass": "Grass",
+    "Bush": "Bush",
+    "Vegetation": "Vegetation",
+    "Foreground_UPS": "Foreground_UPS"
+  },
+  "class_labels": {
+    "Background": 0,
+    "Grass": 1,
+    "Bush": 2,
+    "Vegetation": 3,
+    "Foreground_UPS": 4
+  },
+  "tile_size": 512,
+  "output_mask_path": "/home/corbusier/development/arial_image_chopper/output_ups_1024_4_labels/mask.tif",
+  "color_mask_path": "/home/corbusier/development/arial_image_chopper/output_ups_1024_4_labels/color_mask.png",
+  "colormap": {
+    "0": [0, 0, 0],
+    "1": [255, 0, 0],
+    "2": [0, 255, 0],
+    "3": [0, 0, 255],
+    "4": [0, 0, 0]
+  },
+  "prefix": "UPS_512_4_labels"
+}
